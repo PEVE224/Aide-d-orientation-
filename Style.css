@@ -1,1 +1,104 @@
+body { 
+  font-family: Arial, sans-serif; 
+  margin: 0; 
+  background: #f8fbff; 
+  color: #333; 
+}
 
+header { 
+  background: #0077cc; 
+  color: white; 
+  padding: 20px; 
+  text-align: center; 
+}
+
+nav { 
+  background: #e6f3ff; 
+  display: flex; 
+  justify-content: center; 
+  gap: 20px; 
+  padding: 10px; 
+}
+
+nav a { 
+  text-decoration: none; 
+  color: #0077cc; 
+  font-weight: bold; 
+}
+
+section { 
+  padding: 40px; 
+  max-width: 900px; 
+  margin: auto; 
+}
+
+h1, h2 { 
+  color: #005fa3; 
+}
+
+.card { 
+  background: white; 
+  padding: 20px; 
+  margin: 15px 0; 
+  border-radius: 12px; 
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1); 
+}
+
+form input, form textarea { 
+  width: 100%; 
+  padding: 10px; 
+  margin: 5px 0; 
+  border: 1px solid #ccc; 
+  border-radius: 8px; 
+}
+
+/* Boutons */
+.btn-group { 
+  display: flex; 
+  gap: 10px; 
+  margin-top: 10px; 
+  flex-wrap: wrap; 
+}
+
+.btn { 
+  display: flex; 
+  align-items: center; 
+  gap: 8px; 
+  padding: 10px 20px; 
+  border: none; 
+  border-radius: 8px; 
+  cursor: pointer; 
+  font-weight: bold; 
+  font-size: 15px; 
+}
+
+.icon { 
+  width: 20px; 
+  height: 20px; 
+}
+
+/* WhatsApp */
+.whatsapp { 
+  background: #25D366; 
+  color: white; 
+}
+.whatsapp:hover { 
+  background: #1ebe5b; 
+}
+
+/* SMS */
+.sms { 
+  background: #0077cc; 
+  color: white; 
+}
+.sms:hover { 
+  background: #005fa3; 
+}
+
+/* Note */
+.note { 
+  margin-top: 10px; 
+  color: #cc0000; 
+  font-size: 14px; 
+  font-style: italic; 
+}
