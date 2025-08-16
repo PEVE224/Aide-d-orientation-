@@ -1,1 +1,30 @@
 
+<section id="contact">
+  <h1>🎓 Assistance à l'Orientation des Bacheliers</h1>
+  <p>Bienvenue sur notre service d’aide pour l’orientation universitaire des bacheliers en Guinée. 
+     Posez vos questions et recevez des conseils personnalisés via WhatsApp ou SMS directement !</p>
+
+  <div class="card">
+    <p><strong>📞 Numéro vert :</strong> 800-XXX-XXX</p>
+    <p><strong>💬 WhatsApp :</strong> +224611016900</p>
+
+    <form>
+      <input type="text" id="name" placeholder="Nom complet" required>
+      <input type="email" id="email" placeholder="Email" required>
+      <textarea id="message" placeholder="Votre question..." rows="4" required></textarea>
+
+      <div class="btn-group">
+        <button type="button" class="btn whatsapp" onclick="sendWhatsApp()">
+          <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" alt="WhatsApp" class="icon">
+          Envoyer via WhatsApp
+        </button>
+
+        <button type="button" class="btn sms" onclick="sendSMS()">
+          <img src="https://cdn-icons-png.flaticon.com/512/725/725624.png" alt="SMS" class="icon">
+          Envoyer via SMS
+        </button>
+      </div>
+      <p class="note">⚠️ Votre message sera transmis directement par WhatsApp ou SMS.</p>
+    </form>
+  </div>
+</section>
